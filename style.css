@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: auto auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    border: 2px solid #353235;
+    border-radius: 30px 10px;
+    padding: 15px;
+    width: 274px;
+    background-color: #a48a6a96;
+}
+
+.display{
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: end;
+    justify-items: end;
+    display: flex;
+    padding: 0px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #A7A4A7;
+}
+
+.all_btn{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    margin: 5px 5px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    background-color: #343134;
+}
+
+.zero{
+    flex: 1;
+    border-radius: 25px;
+}
+
+.arithmetic{
+    background-color: #FF9301;
+}
+
+.btn_spcl{
+    background-color: #A7A4A7;
+    color: #343134;
+}
+
+.btn:hover{
+    background-color: #666366;
+}
+
+.arithmetic:hover{
+    background-color: #ffffff;
+    color: #FF9301;
+}
+
+.btn_spcl:hover{
+    background-color: #343134;
+    color: #A7A4A7 ;
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+    .container{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 310px){
+    .container{
+        width: 95%;
+    }
+
+    .calculator{
+        padding: 15px 11.4px;
+        width: 275px;
+    }
+    
+    .display{
+        padding: 0px 10px;
+        font-size: 25px;
+    }
+
+    .btn{
+        width: 50px;
+        height: 50px;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .container{
+        width: 95%;
+    }
+
+    .calculator{
+        padding: 15px 11.4px;
+        width: 275px;
+    }
+    
+    .display{
+        padding: 0px 10px;
+        font-size: 25px;
+    }
+
+    .btn{
+        width: 50px;
+        height: 50px;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .container{
+        width: 95%;
+    }
+
+    .calculator{
+        padding: 15px 11.4px;
+        min-width: 260px;
+    }
+    
+    .display{
+        padding: 0px 10px;
+        font-size: 25px;
+    }
+
+    .btn{
+        width: 48.5px;
+        height: 48.5px;
+        font-size: large;
+        font-weight: bold;
+    }
+}
